@@ -1,0 +1,47 @@
+header{
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    background-color:#aaaaaa;
+}
+
+nav a{
+    color:black;
+    padding: 14px ;
+    text-decoration:none;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+aside{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    flex:50px;
+    background-color:black;
+    padding: 20px;
+    color:white
+    
+}
+
+section{
+    color:white;
+    flex:50%;
+    background-color: black;
+    padding: 20px;
+    text-align: left;
+}
+
+footer{
+    padding: 1px;
+    text-align: center;
+    background-color:#aaaaaa;
+}
